@@ -2,7 +2,7 @@
 name: Java Dominicano Monthly Talk Proposal
 about: Déjanos saber si está interesado en realizar una charla en la comunidad Java
   de República Dominicana
-title: "[Monthly Talks YEAR - MONTH] - Title"
+title: Titulo de la propuesta
 labels: Proposal, Talk
 assignees: ''
 
