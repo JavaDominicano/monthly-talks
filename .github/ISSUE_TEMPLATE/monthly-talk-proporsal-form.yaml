@@ -1,6 +1,6 @@
-name: Java Dominicano Monthly Talk Proposal Form
-description: Enviar propuesta para las reuniones mensuales de la comunidad Java de República Dominicana
-title: "[Proposal] <Título de la propuesta>"
+name: Java Dominicano Monthly Talk Proposal
+description: Enviar propuesta para las reuniones mensuales de la comunidad Java de República Dominicana.
+title: "[Proposal] Título de la propuesta"
 labels: [Proposal, Talk]
 body:
 - type: markdown
@@ -25,14 +25,14 @@ body:
 - type: textarea
   attributes:
     label: Descripción
-    description: Agregue una descripción detallada del tema que desea tratar
+    description: Agregue una descripción detallada del tema que desea tratar.
   validations:
     required: true
 - type: textarea
   attributes:
     label: Bio
     description: |
-      Agregue datos relevante sobre su vida profesional
+      Agregue datos relevante sobre su vida profesional.
       Nota: Agregar algún enlace de su cuenta de github, GitLab, BitBucket o cualquier otra plataforma que contenga su portafolio en línea.
   validations:
     required: true
