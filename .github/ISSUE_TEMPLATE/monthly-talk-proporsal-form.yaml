@@ -36,11 +36,3 @@ body:
       Nota: Agregar algún enlace de su cuenta de github, GitLab, BitBucket o cualquier otra plataforma que contenga su portafolio en línea.
   validations:
     required: true
-- type: input
-  id: contact
-  attributes:
-      label: Información de contacto
-      description: ¿Cómo podemos ponernos en contacto contigo si necesitamos más información?
-      placeholder: ex. email@example.com
-  validations:
-      required: true
