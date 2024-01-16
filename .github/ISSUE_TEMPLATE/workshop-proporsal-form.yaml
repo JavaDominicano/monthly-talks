@@ -1,0 +1,47 @@
+name: Java Dominicano Workshop Proposal
+description: Enviar propuesta para los talleres presenciales de la comunidad Java de República Dominicana.
+title: "[Proposal] Título de la propuesta"
+labels: [Proposal, Workshop]
+body:
+- type: markdown
+  attributes:
+      value: |
+        Si estás interesado en realizar un taller presencial en la comunidad Java de República Dominicana, por favor, completar las siguientes informaciones.
+- type: input
+  attributes:
+    label: Título
+  validations:
+     required: true
+- type: input
+  attributes:
+    label: Fecha
+  validations:
+     required: true   
+- type: input
+  attributes:
+    label: Duración
+    description: De 3 a 4 horas de duración como máximo.
+  validations:
+     required: true        
+- type: textarea
+  attributes:
+    label: Descripción
+    description: Agregue una descripción detallada del tema que desea tratar.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Bio
+    description: |
+      Agregue datos relevante sobre su vida profesional.
+      Nota: Agregar algún enlace de su cuenta de github, GitLab, BitBucket o cualquier otra plataforma que contenga su portafolio en línea.
+  validations:
+    required: true
+- type: input
+  id: contact
+  attributes:
+      label: Información de contacto
+      description: ¿Cómo podemos ponernos en contacto contigo si necesitamos más información?
+      placeholder: ex. email@example.com
+  validations:
+      required: true
